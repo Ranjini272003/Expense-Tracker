@@ -4,7 +4,7 @@ function ExpenseItem({ expense, dispatch, setEditingExpense }) {
     return (
         <li>
             <div>
-                {expense.title} - ${expense.amount} [{expense.category}]
+                {expense.title} - ₹{expense.amount} [{expense.category}]
             </div>
             <div>
                 <button
